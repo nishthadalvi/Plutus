@@ -1,4 +1,5 @@
 import { createIcon } from "@chakra-ui/icons";
+import plutusLogo from "../../assets/plutus.png"
 
 export const AdobexdLogo = createIcon({
   displayName: "AdobexdLogo",
@@ -121,6 +122,12 @@ export const CreativeTimLogo = createIcon({
   // >
   // </chakra.svg>
 });
+
+export const PlutusLogo = () => {
+  return (
+    <img style={{ width: "24px" }} src={plutusLogo} />
+  )
+}
 
 export const CreditIcon = createIcon({
   displayName: "CreditIcon",
