@@ -28,7 +28,7 @@ var dashRoutes = [
   },
   {
     path: "/tables",
-    name: "Tables",
+    name: "Cart", // initally "Tables"
     rtlName: "لوحة القيادة",
     icon: <StatsIcon color="inherit" />,
     component: Tables,
@@ -36,7 +36,7 @@ var dashRoutes = [
   },
   {
     path: "/billing",
-    name: "Billing",
+    name: "Spending", // initially "Spending"
     rtlName: "لوحة القيادة",
     icon: <CreditIcon color="inherit" />,
     component: Billing,
@@ -44,7 +44,7 @@ var dashRoutes = [
   },
   {
     path: "/rtl-support-page",
-    name: "RTL",
+    name: "Settings", // initially "RTL"
     rtlName: "آرتيإل",
     icon: <SupportIcon color="inherit" />,
     component: RTLPage,

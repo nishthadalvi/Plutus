@@ -35,7 +35,7 @@ const ActiveUsers = ({ title, percentage, chart }) => {
               than last week
             </Text>
           </Flex>
-          <SimpleGrid gap={{ sm: "12px" }} columns={4}>
+           {/* <SimpleGrid gap={{ sm: "12px" }} columns={4}>
             <ChartStatistics
               title={"Users"}
               amount={"32,984"}
@@ -60,7 +60,7 @@ const ActiveUsers = ({ title, percentage, chart }) => {
               percentage={40}
               icon={<StatsIcon h={"15px"} w={"15px"} color={iconBoxInside} />}
             />
-          </SimpleGrid>
+          </SimpleGrid> */}
         </Flex>
       </CardBody>
     </Card>

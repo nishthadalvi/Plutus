@@ -125,7 +125,7 @@ export const CreativeTimLogo = createIcon({
 
 export const PlutusLogo = () => {
   return (
-    <img style={{ width: "24px" }} src={plutusLogo} />
+    <img style={{ height: "60px" }} src={plutusLogo} />
   )
 }
 

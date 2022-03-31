@@ -192,7 +192,7 @@ const SidebarContent = ({ logoText, routes }) => {
         fontSize="11px"
       >
         <PlutusLogo />
-        <Text fontSize="sm" mt="3px">
+        <Text fontSize="xl" mt="3px" ml = "3px">
           {logoText}
         </Text>
       </Link>
