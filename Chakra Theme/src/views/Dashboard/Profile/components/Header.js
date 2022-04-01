@@ -92,30 +92,9 @@ const Header = ({
               </Text>
             </Flex>
           </Flex>
-          <Flex
+          {/* <Flex
             direction={{ sm: "column", lg: "row" }}
             w={{ sm: "100%", md: "50%", lg: "auto" }}>
-            <Button p='0px' bg='transparent' _hover={{ bg: "none" }}>
-              <Flex
-                align='center'
-                w={{ sm: "100%", lg: "135px" }}
-                bg='hsla(0,0%,100%,.3)'
-                borderRadius='15px'
-                justifyContent='center'
-                py='10px'
-                boxShadow='inset 0 0 1px 1px hsl(0deg 0% 100% / 90%), 0 20px 27px 0 rgb(0 0 0 / 5%)'
-                border='1px solid gray.200'
-                cursor='pointer'>
-                {tabs[0].icon}
-                <Text
-                  fontSize='xs'
-                  color={textColor}
-                  fontWeight='bold'
-                  ms='6px'>
-                  {tabs[0].name}
-                </Text>
-              </Flex>
-            </Button>
             <Button p='0px' bg='transparent' _hover={{ bg: "none" }}>
               <Flex
                 align='center'
@@ -133,9 +112,9 @@ const Header = ({
                   ms='6px'>
                   {tabs[1].name}
                 </Text>
-              </Flex>
-            </Button>
-            <Button p='0px' bg='transparent' _hover={{ bg: "none" }}>
+              </Flex> */}
+            {/* </Button> */}
+            {/* <Button p='0px' bg='transparent' _hover={{ bg: "none" }}>
               <Flex
                 align='center'
                 w={{ lg: "135px" }}
@@ -153,7 +132,7 @@ const Header = ({
                 </Text>
               </Flex>
             </Button>
-          </Flex>
+          </Flex> */}
         </Flex>
       </Box>
     </Box>

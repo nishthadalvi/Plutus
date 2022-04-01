@@ -67,7 +67,7 @@ export default function HeaderLinks(props) {
           borderColor: { mainTeal },
         }}
       >
-        <InputLeftElement
+        {/* <InputLeftElement
           children={
             <IconButton
               bg="inherit"
@@ -84,14 +84,14 @@ export default function HeaderLinks(props) {
               icon={<SearchIcon color={searchIcon} w="15px" h="15px" />}
             ></IconButton>
           }
-        />
-        <Input
+        /> */}
+        {/* <Input
           fontSize="xs"
           py="11px"
           color={mainText}
           placeholder="Type here..."
           borderRadius="inherit"
-        />
+        /> */}
       </InputGroup>
       <NavLink to="/auth/signin">
         <Button
