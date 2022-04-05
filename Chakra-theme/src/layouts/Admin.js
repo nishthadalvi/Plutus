@@ -1,15 +1,15 @@
 // Chakra imports
 import { ChakraProvider, Portal, useDisclosure } from "@chakra-ui/react";
-import Configurator from "components/Configurator/Configurator";
-import Footer from "components/Footer/Footer.js";
+import Configurator from "../components/Configurator/Configurator";
+import Footer from "../components/Footer/Footer.js";
 // Layout components
-import AdminNavbar from "components/Navbars/AdminNavbar.js";
-import Sidebar from "components/Sidebar";
+import AdminNavbar from "../components/Navbars/AdminNavbar.js";
+import Sidebar from "../components/Sidebar";
 import React, { useState } from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
-import routes from "routes.js";
+import routes from "../routes";
 // Custom Chakra theme
-import theme from "theme/theme.js";
+import theme from "../theme/theme";
 import FixedPlugin from "../components/FixedPlugin/FixedPlugin";
 // Custom components
 import MainPanel from "../components/Layout/MainPanel";

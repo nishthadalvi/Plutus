@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Card from "components/Card/Card";
+import Card from "../../components/Card/Card";
 import Chart from "react-apexcharts";
-import { barChartData, barChartOptions } from "variables/charts";
+import { barChartData, barChartOptions } from "../../variables/charts";
 
 class BarChart extends Component {
   constructor(props) {

@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import { createIcon } from "@chakra-ui/icons";
 import plutusLogo from "../../assets/plutus.png"
 

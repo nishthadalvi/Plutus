@@ -9,10 +9,10 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Custom components
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-import CardHeader from "components/Card/CardHeader.js";
-import TablesTableRow from "components/Tables/TablesTableRow";
+import Card from "../../../../components/Card/Card.js";
+import CardBody from "../../../../components/Card/CardBody.js";
+import CardHeader from "../../../../components/Card/CardHeader.js";
+import TablesTableRow from "../../../../components/Tables/TablesTableRow";
 import React from "react";
 
 const Authors = ({ title, captions, data }) => {

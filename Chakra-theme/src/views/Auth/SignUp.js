@@ -14,7 +14,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import BgSignUp from "assets/img/BgSignUp.png";
+import BgSignUp from "../../assets/img/BgSignUp.png";
 import React from "react";
 import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
 

@@ -1,10 +1,10 @@
 // Chakra imports
 import { Flex, Text, useColorModeValue } from "@chakra-ui/react";
 // Custom components
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-import CardHeader from "components/Card/CardHeader.js";
-import TimelineRow from "components/Tables/TimelineRow";
+import Card from "../../../../components/Card/Card.js";
+import CardBody from "../../../../components/Card/CardBody.js";
+import CardHeader from "../../../../components/Card/CardHeader.js";
+import TimelineRow from "../../../../components/Tables/TimelineRow";
 import React from "react";
 
 const OrdersOverview = ({ title, amount, data }) => {
