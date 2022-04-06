@@ -22,7 +22,11 @@ import Transactions from "./components/Transactions";
 function Billing() {
   return (
     <Flex direction='column' pt={{ base: "120px", md: "75px" }}>
-      <Grid templateColumns={{ sm: "1fr", lg: "2fr 1.2fr" }} templateRows='1fr'>
+      <Grid>
+        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+      </Grid>
+      {/* <Grid templateColumns={{ sm: "1fr", lg: "2fr 1.2fr" }} templateRows='1fr'>
         <Box>
           <Grid
             templateColumns={{
@@ -79,7 +83,7 @@ function Billing() {
           />
         </Box>
         <Invoices title={"Invoices"} data={invoicesData} />
-      </Grid>
+      </Grid> */}
       <Grid templateColumns={{ sm: "1fr", lg: "1.6fr 1.2fr" }}>
         <BillingInformation title={"Billing Information"} data={billingData} />
         <Transactions
