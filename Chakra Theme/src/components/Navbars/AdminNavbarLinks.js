@@ -16,9 +16,9 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import avatar1 from "assets/img/avatars/avatar1.png";
-import avatar2 from "assets/img/avatars/avatar2.png";
-import avatar3 from "assets/img/avatars/avatar3.png";
+import avatar1 from "assets/img/avatars/shoes.jpg";
+import avatar2 from "assets/img/avatars/shoes.jpg";
+import avatar3 from "assets/img/avatars/shoes.jpg";
 // Custom Icons
 import { ProfileIcon, SettingsIcon } from "components/Icons/Icons";
 // Custom Components

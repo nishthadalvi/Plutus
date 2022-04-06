@@ -1,6 +1,6 @@
 // Chakra imports
 import { Flex, Grid, useColorModeValue } from "@chakra-ui/react";
-import avatar4 from "assets/img/avatars/avatar4.png";
+import avatar4 from "assets/img/avatars/shoes.jpg";
 import ProfileBgImage from "assets/img/ProfileBackground.png";
 import React from "react";
 import { FaCube, FaPenFancy } from "react-icons/fa";

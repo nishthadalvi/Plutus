@@ -8,9 +8,9 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import avatar2 from "assets/img/avatars/avatar2.png";
-import avatar4 from "assets/img/avatars/avatar4.png";
-import avatar6 from "assets/img/avatars/avatar6.png";
+import avatar2 from "assets/img/avatars/shoes.jpg";
+import avatar4 from "assets/img/avatars/shoes.jpg";
+import avatar6 from "assets/img/avatars/shoes.jpg";
 import imageArchitect1 from "assets/img/ImageArchitect1.png";
 import imageArchitect2 from "assets/img/ImageArchitect2.png";
 import imageArchitect3 from "assets/img/ImageArchitect3.png";
