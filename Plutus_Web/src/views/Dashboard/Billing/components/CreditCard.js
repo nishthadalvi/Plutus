@@ -1,8 +1,8 @@
 // Chakra imports
 import { Box, Flex, Spacer, Text } from "@chakra-ui/react";
 // Custom components
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
+import Card from "../../../../components/Card/Card.js";
+import CardBody from "../../../../components/Card/CardBody.js";
 import React from "react";
 
 const CreditCard = ({

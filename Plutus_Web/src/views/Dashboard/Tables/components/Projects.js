@@ -10,10 +10,10 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Custom components
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-import CardHeader from "components/Card/CardHeader.js";
-import TablesProjectRow from "components/Tables/TablesProjectRow";
+import Card from "../../../../components/Card/Card.js";
+import CardBody from "../../../../components/Card/CardBody.js";
+import CardHeader from "../../../../components/Card/CardHeader.js";
+import TablesProjectRow from "../../../../components/Tables/TablesProjectRow";
 import React from "react";
 
 const Projects = ({ title, captions, data }) => {

@@ -1,4 +1,5 @@
 import { Box, useStyleConfig } from "@chakra-ui/react";
+import React, { useState } from "react";
 function MainPanel(props) {
   const { variant, children, ...rest } = props;
   const styles = useStyleConfig("MainPanel", { variant });

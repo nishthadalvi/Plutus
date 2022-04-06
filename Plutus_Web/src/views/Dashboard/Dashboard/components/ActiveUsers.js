@@ -1,15 +1,15 @@
 // Chakra imports
 import { Flex, SimpleGrid, Text, useColorModeValue } from "@chakra-ui/react";
 // Custom components
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
+import Card from "../../../../components/Card/Card.js";
+import CardBody from "../../../../components/Card/CardBody.js";
 // Custom icons
 import {
   CartIcon,
   RocketIcon,
   StatsIcon,
   WalletIcon,
-} from "components/Icons/Icons.js";
+} from "../../../../components/Icons/Icons.js";
 import React from "react";
 import ChartStatistics from "./ChartStatistics";
 

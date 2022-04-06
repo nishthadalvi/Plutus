@@ -1,10 +1,10 @@
 // Chakra imports
 import { Flex, Text, useColorModeValue } from "@chakra-ui/react";
 // Custom components
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-import IconBox from "components/Icons/IconBox";
-import { Separator } from "components/Separator/Separator";
+import Card from "../../../../components/Card/Card.js";
+import CardBody from "../../../../components/Card/CardBody.js";
+import IconBox from "../../../../components/Icons/IconBox";
+import { Separator } from "../../../../components/Separator/Separator";
 import React from "react";
 
 const PaymentStatistics = ({ icon, title, description, amount }) => {

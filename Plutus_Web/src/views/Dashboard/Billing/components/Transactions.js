@@ -1,10 +1,10 @@
 // Chakra imports
 import { Flex, Icon, Text, useColorModeValue } from "@chakra-ui/react";
 // Custom components
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-import CardHeader from "components/Card/CardHeader.js";
-import TransactionRow from "components/Tables/TransactionRow";
+import Card from "../../../../components/Card/Card.js";
+import CardBody from "../../../../components/Card/CardBody.js";
+import CardHeader from "../../../../components/Card/CardHeader.js";
+import TransactionRow from "../../../../components/Tables/TransactionRow";
 import React from "react";
 import { FaRegCalendarAlt } from "react-icons/fa";
 

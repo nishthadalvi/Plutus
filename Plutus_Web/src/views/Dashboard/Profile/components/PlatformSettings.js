@@ -1,9 +1,9 @@
 // Chakra imports
 import { Flex, Switch, Text, useColorModeValue } from "@chakra-ui/react";
 // Custom components
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import CardHeader from "components/Card/CardHeader";
+import Card from "../../../../components/Card/Card";
+import CardBody from "../../../../components/Card/CardBody";
+import CardHeader from "../../../../components/Card/CardHeader";
 import React from "react";
 
 const PlatformSettings = ({ title, subtitle1, subtitle2 }) => {

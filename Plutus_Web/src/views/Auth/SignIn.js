@@ -14,7 +14,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import signInImage from "assets/img/signInImage.png";
+import signInImage from "../../assets/img/signInImage.png";
 
 function SignIn() {
   // Chakra color mode
