@@ -24,19 +24,25 @@ const PlatformSettings = ({ title, subtitle1, subtitle2 }) => {
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Email me when someone follows me
+              Email me when item is out of stock
             </Text>
           </Flex>
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Email me when someone answers on my post
+              Email me when item is back in stock
             </Text>
           </Flex>
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Email me when someone mentions me
+              Email me 1 day before scheduled purchase
+            </Text>
+          </Flex>
+          <Flex align='center' mb='20px'>
+            <Switch colorScheme='teal' me='10px' />
+            <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
+              Email me after scheduled purchase
             </Text>
           </Flex>
           <Text
@@ -49,19 +55,13 @@ const PlatformSettings = ({ title, subtitle1, subtitle2 }) => {
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              New launches and projects
+              Email me when monthly budget is reached
             </Text>
           </Flex>
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Monthly product changes
-            </Text>
-          </Flex>
-          <Flex align='center' mb='20px'>
-            <Switch colorScheme='teal' me='10px' />
-            <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Subscribe to newsletter
+              Email me monthly spending statistics
             </Text>
           </Flex>
         </Flex>

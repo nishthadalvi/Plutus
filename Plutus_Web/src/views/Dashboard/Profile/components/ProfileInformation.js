@@ -20,7 +20,7 @@ const ProfileInformation = ({
 
   return (
     <Card p='16px' my={{ sm: "24px", xl: "0px" }}>
-      <CardHeader p='12px 5px' mb='12px'>
+      <CardHeader p='12px 5px' mb='0px'>
         <Text fontSize='lg' color={textColor} fontWeight='bold'>
           {title}
         </Text>
@@ -30,7 +30,7 @@ const ProfileInformation = ({
           <Text fontSize='md' color='gray.500' fontWeight='400' mb='30px'>
             {description}
           </Text>
-          <Flex align='center' mb='18px'>
+          <Flex align='center' mb='20px'>
             <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
               Full Name:{" "}
             </Text>
