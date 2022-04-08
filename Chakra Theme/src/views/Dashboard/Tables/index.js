@@ -14,8 +14,8 @@ function Tables() {
         data={tablesTableData}
       />
       <Projects
-        title={"Projects Table"}
-        captions={["Companies", "Budget", "Status", "Completion", ""]}
+        title={"Real-Time Statistics"}
+        captions={["Company", "Total Cost", "Number of Items", "Percent of Cart", ""]}
         data={dashboardTableData}
       />
     </Flex>

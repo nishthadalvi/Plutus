@@ -3,7 +3,6 @@ import plutusLogo from "../../assets/plutus.png"
 
 export const AdobexdLogo = createIcon({
   displayName: "AdobexdLogo",
-  viewBox: "0 0 24 24",
   path: (
     <g clipPath="url(#clip0)">
       <path
