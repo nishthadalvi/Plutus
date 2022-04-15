@@ -62,7 +62,7 @@ const ProfileInformation = ({
               {location}
             </Text>
           </Flex>
-          <Flex align='center' mb='18px'>
+          {/* <Flex align='center' mb='18px'>
             <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
               Social Media:{" "}
             </Text>
@@ -92,7 +92,7 @@ const ProfileInformation = ({
                 <Icon as={FaTwitter} />
               </Link>
             </Flex>
-          </Flex>
+          </Flex> */}
         </Flex>
       </CardBody>
     </Card>

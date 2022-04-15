@@ -8,6 +8,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import React from "react";
+import { SettingsIcon } from '../../../../components/Icons/Icons';
 
 const Header = ({
   backgroundHeader,
@@ -92,6 +93,13 @@ const Header = ({
               </Text>
             </Flex>
           </Flex>
+          <SettingsIcon
+        cursor="pointer"
+        ms={{ base: "16px", xl: "0px" }}
+        me="16px"
+        w="18px"
+        h="18px"
+      />
           {/* <Flex
             direction={{ sm: "column", lg: "row" }}
             w={{ sm: "100%", md: "50%", lg: "auto" }}>

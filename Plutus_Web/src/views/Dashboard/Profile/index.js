@@ -45,9 +45,14 @@ function Profile() {
       <Grid templateColumns={{ sm: "1fr", xl: "repeat(2, 1fr)" }} gap='22px'>
         <PlatformSettings
           title={"Notification Settings"}
-          subtitle1={"PURCHASES"}
-          subtitle2={"FINANCES"}
+          subtitle1={"FINANCES"}
+          subtitle2={"PURCHASES"}
         />
+        {/* <ConnectedAccounts
+          title={"Connected Accounts"}
+          subtitle1={"FINANCES"}
+          subtitle2={"PURCHASES"}
+        /> */}
         <ProfileInformation
           title={"Profile Information"}
           // description={

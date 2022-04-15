@@ -65,4 +65,4 @@ const PlatformSettings = ({ title, subtitle1, subtitle2 }) => {
   );
 };
 
-export default PlatformSettings;
+export default ConnectedAccounts;
