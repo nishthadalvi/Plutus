@@ -25,8 +25,8 @@ function Profile() {
         backgroundHeader={ProfileBgImage}
         backgroundProfile={bgProfile}
         avatarImage={avatar4}
-        name={"Esthera Jackson"}
-        email={"esthera@simmmple.com"}
+        name={"Carly Jackson"}
+        email={"cjackson@gmail.com"}
         tabs={[
           {
             name: "OVERVIEW",
@@ -58,9 +58,9 @@ function Profile() {
           // description={
           //   "Hi, I’m Esthera Jackson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
           // }
-          name={"Esthera Jackson"}
+          name={"Carly Jackson"}
           mobile={"(44) 123 1234 123"}
-          email={"esthera@simmmple.com"}
+          email={"cjackson@gmail.com"}
           location={"United States"}
         />
         {/* <Conversations title={"Conversations"} /> */}
