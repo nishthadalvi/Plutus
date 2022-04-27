@@ -38,20 +38,6 @@ const ProjectCard = ({ image, name, category, avatars, description }) => {
           {description}
         </Text>
         <Flex justifyContent='space-between'>
-          <Button
-            variant='outline'
-            colorScheme='teal'
-            minW='110px'
-            h='36px'
-            fontSize='xs'
-            px='1.5rem'>
-            VIEW PROJECT
-          </Button>
-          <AvatarGroup size='xs'>
-            {avatars.map((el, idx) => {
-              return <Avatar src={el} key={idx} />;
-            })}
-          </AvatarGroup>
         </Flex>
       </Flex>
     </Flex>

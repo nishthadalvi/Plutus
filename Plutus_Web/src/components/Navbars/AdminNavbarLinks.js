@@ -67,7 +67,7 @@ export default function HeaderLinks(props) {
           borderColor: { mainTeal },
         }}
       >
-        <InputLeftElement
+        {/* <InputLeftElement
           children={
             <IconButton
               bg="inherit"
@@ -84,14 +84,14 @@ export default function HeaderLinks(props) {
               icon={<SearchIcon color={searchIcon} w="15px" h="15px" />}
             ></IconButton>
           }
-        />
-        <Input
+        /> */}
+        {/* <Input
           fontSize="xs"
           py="11px"
           color={mainText}
           placeholder="Type here..."
           borderRadius="inherit"
-        />
+        /> */}
       </InputGroup>
       <NavLink to="/auth/signin">
         <Button
@@ -143,28 +143,28 @@ export default function HeaderLinks(props) {
           <Flex flexDirection="column">
             <MenuItem borderRadius="8px" mb="10px">
               <ItemContent
-                time="13 minutes ago"
-                info="from Alicia"
-                boldInfo="New Message"
-                aName="Alicia"
+                time="12 minutes ago"
+                info=" by Amazon"
+                boldInfo="Back in stock!"
+                aName=""
                 aSrc={avatar1}
               />
             </MenuItem>
             <MenuItem borderRadius="8px" mb="10px">
               <ItemContent
                 time="2 days ago"
-                info="by Josh Henry"
-                boldInfo="New Album"
-                aName="Josh Henry"
+                info="by Plutus"
+                boldInfo="Budget reached"
+                aName=""
                 aSrc={avatar2}
               />
             </MenuItem>
             <MenuItem borderRadius="8px">
               <ItemContent
                 time="3 days ago"
-                info="Payment succesfully completed!"
+                info="Scheduled purchase completed!"
                 boldInfo=""
-                aName="Kara"
+                aName=""
                 aSrc={avatar3}
               />
             </MenuItem>

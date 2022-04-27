@@ -14,7 +14,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import signInImage from "../../assets/img/signInImage.png";
+import plutus from "../../assets/img/plutus.png";
 
 function SignIn() {
   // Chakra color mode
@@ -124,15 +124,17 @@ function SignIn() {
           h='100%'
           w='40vw'
           position='absolute'
-          right='0px'>
+          right='100px'
+          top={175}
+          left={950}>
           <Box
-            bgImage={signInImage}
-            w='100%'
-            h='100%'
+            bgImage={plutus}
+            w='50%'
+            h='50%'
             bgSize='cover'
             bgPosition='50%'
             position='absolute'
-            borderBottomLeftRadius='20px'></Box>
+            borderBottomLeftRadius='60px'></Box>
         </Box>
       </Flex>
     </Flex>

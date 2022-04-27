@@ -29,32 +29,26 @@ export default function Footer(props) {
       >
         &copy; {1900 + new Date().getYear()},{" "}
         <Text as="span">
-          {document.documentElement.dir === "rtl"
-            ? " مصنوع من ❤️ بواسطة"
-            : "Made with ❤️ by "}
+          {"Made with ❤️ by "}
         </Text>
         <Link
           // color={linkTeal}
           color="teal.400"
-          href="https://www.creative-tim.com"
+          href="https://github.com/AnjaliBathra/Plutus"
           target="_blank"
         >
-          {document.documentElement.dir === "rtl"
-            ? " توقيت الإبداعية"
-            : "Creative Tim "}
+          {"PLUTU$ "}
         </Link>
-        &
+        @
         <Link
           // color={linkTeal}
           color="teal.400"
-          href="https://www.simmmple.com"
+          href="https://github.com/AnjaliBathra/Plutus"
           target="_blank"
         >
-          {document.documentElement.dir === "rtl" ? "سيممبل " : " Simmmple"}
+          {"Texas Convergent"}
         </Link>
-        {document.documentElement.dir === "rtl"
-          ? "للحصول على ويب أفضل"
-          : " for a better web"}
+        {/* {" for a better online shopping experience"} */}
       </Text>
       <List display="flex">
         <ListItem
@@ -63,10 +57,8 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
-          <Link color="gray.400" href="https://www.creative-tim.com">
-            {document.documentElement.dir === "rtl"
-              ? "توقيت الإبداعية"
-              : "Creative Tim"}
+          <Link color="gray.400" href="https://github.com/AnjaliBathra/Plutus">
+            {"GitHub"}
           </Link>
         </ListItem>
         <ListItem
@@ -75,8 +67,8 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
-          <Link color="gray.400" href="https://www.simmmple.com">
-            {document.documentElement.dir === "rtl" ? "سيممبل" : "Simmmple"}
+          <Link color="gray.400" href="https://www.txconvergent.org/">
+            {"TXConvergent"}
           </Link>
         </ListItem>
         <ListItem
@@ -90,7 +82,7 @@ export default function Footer(props) {
             href="#blog"
             href="https://creative-tim.com/blog"
           >
-            {document.documentElement.dir === "rtl" ? "مدونة" : "Blog"}
+            {"Theme"}
           </Link>
         </ListItem>
         <ListItem>
