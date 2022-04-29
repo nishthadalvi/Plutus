@@ -8,12 +8,22 @@ import avatar7 from "../assets/img/avatars/avatar7.png";
 import avatar8 from "../assets/img/avatars/avatar8.png";
 import avatar9 from "../assets/img/avatars/avatar9.png";
 import avatar10 from "../assets/img/avatars/avatar10.png";
+import amazonlogo from "../assets/img/amazonlogo.png";
+import nikelogo from "../assets/img/Nike_Logo.jpeg";
+import airjordan from  "../assets/img/airjordan.png";
+import amazonchair from "../assets/img/amazonChair.jpg";
+
 // Custom icons
 import {
   AdobexdLogo,
   AtlassianLogo,
   InvisionLogo,
   JiraLogo,
+  JordanLogo,
+  ChairLogo,
+  PlutusLogo,
+  AmazonLogo2,
+  NikeLogo2, 
   SlackLogo,
   SpotifyLogo,
 } from "../components/Icons/Icons.js";
@@ -29,48 +39,36 @@ import {
 } from "react-icons/fa";
 import { SiDropbox } from "react-icons/si";
 
-export const dashboardTableData = [
+export const dashboardTableData = [ //--------this is the front dahsboard!!!!!!!!
   {
-    //logo: avatar1,
-    name: "Purity UI Version",
-    members: [avatar1, avatar2, avatar3, avatar4, avatar5],
-    budget: "$14,000",
-    progression: 60,
+    logo: JordanLogo,
+    name: "Air Jordan 1",
+    members: [nikelogo],
+    budget: "$129.99",
+
   },
   {
-    //logo: AtlassianLogo,
-    name: "Add Progress Track",
-    members: [avatar3, avatar2],
-    budget: "$3,000",
-    progression: 10,
+    logo: ChairLogo,
+    name: "Modern Accent Chair",
+    members: [amazonlogo],
+    budget: "$179.99",
+  },
+];
+
+export const statDashboard = [ //---------------------------this is the cart.stats
+  {
+    logo: NikeLogo2,
+    members: [nikelogo],
+    budget: "$129.99",
+    status: "1",
+    progression: 50,
   },
   {
-    //logo: SlackLogo,
-    name: "Fix Platform Errors",
-    members: [avatar10, avatar4],
-    budget: "Not set",
-    progression: 100,
-  },
-  {
-    //logo: SpotifyLogo,
-    name: "Launch our Mobile App",
-    members: [avatar2, avatar3, avatar7, avatar8],
-    budget: "$32,000",
-    progression: 100,
-  },
-  {
-    //logo: JiraLogo,
-    name: "Add the New Pricing Page",
-    members: [avatar10, avatar3, avatar7, avatar2, avatar8],
-    budget: "$400",
-    progression: 25,
-  },
-  {
-    //logo: InvisionLogo,
-    name: "Redesign New Online Shop",
-    members: [avatar9, avatar3, avatar2],
-    budget: "$7,600",
-    progression: 40,
+    logo: AmazonLogo2,
+    members: [amazonlogo],
+    budget: "$179.99",
+    status: "1",
+    progression: 50,
   },
 ];
 
@@ -194,16 +192,25 @@ export const rtlTimelineData = [
   },
 ];
 
-export const tablesTableData = [
+export const tablesTableData = [ //----------------------this is the cart.cart
   {
-    logo: avatar1,
-    name: "Esthera Jackson",
-    email: "alexa@simmmple.com",
-    subdomain: "Manager",
-    domain: "Organization",
-    status: "Online",
+    logo: airjordan,
+    name: "Nike Air Jordan 1",
+    subdomain: "QT: 1",
+    domain: "$129.99",
+    members: [nikelogo],
     date: "14/06/21",
-  }
+  },
+
+  {
+    logo: amazonchair,
+    name: "Modern Accent Chair",
+    subdomain: "QT: 1",
+    domain: "$179.99",
+    members: [nikelogo],
+    date: "14/06/21",
+  },
+
 ];
 
 export const tablesProjectData = [

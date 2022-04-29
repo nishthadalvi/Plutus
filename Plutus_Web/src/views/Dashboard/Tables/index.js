@@ -3,7 +3,7 @@ import { Flex } from "@chakra-ui/react";
 import React from "react";
 import Authors from "./components/Authors";
 import Projects from "./components/Projects";
-import { tablesTableData, dashboardTableData } from "../../../variables/general";
+import { tablesTableData, dashboardTableData, statDashboard } from "../../../variables/general";
 
 function Tables() {
   return (
@@ -16,7 +16,7 @@ function Tables() {
       <Projects
         title={"Real-Time Statistics"}
         captions={["Company", "Total Cost", "Number of Items", "Percent of Cart", ""]}
-        data={dashboardTableData}
+        data={statDashboard}
       />
     </Flex>
   );
