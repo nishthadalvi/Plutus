@@ -17,7 +17,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import avatar1 from "../../assets/img/avatars/avatar1.png";
+import echodot from "../../assets/img/ImageArchitect1.png";
 import avatar2 from "../../assets/img/avatars/avatar2.png";
 import avatar3 from "../../assets/img/avatars/avatar3.png";
 // Custom Icons
@@ -147,7 +147,7 @@ export default function HeaderLinks(props) {
                 info=" by Amazon"
                 boldInfo="Back in stock!"
                 aName=""
-                aSrc={avatar1}
+                aSrc={echodot}
               />
             </MenuItem>
             <MenuItem borderRadius="8px" mb="10px">
