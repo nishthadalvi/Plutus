@@ -45,6 +45,7 @@ const PlatformSettings = ({ title, subtitle1, subtitle2 }) => {
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
               Email me <input type="number" value={1} style={{width:'10px'}} /> day before scheduled purchase
             </Text>
+
           </Flex>
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
@@ -64,4 +65,4 @@ const PlatformSettings = ({ title, subtitle1, subtitle2 }) => {
   );
 };
 
-export default PlatformSettings;
+export default ConnectedAccounts;

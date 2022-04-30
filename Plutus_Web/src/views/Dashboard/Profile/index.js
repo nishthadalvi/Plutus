@@ -25,8 +25,8 @@ function Profile() {
         backgroundHeader={ProfileBgImage}
         backgroundProfile={bgProfile}
         avatarImage={avatar4}
-        name={"Esthera Jackson"}
-        email={"esthera@simmmple.com"}
+        name={"Carly Jackson"}
+        email={"cjackson@gmail.com"}
         tabs={[
           {
             name: "OVERVIEW",
@@ -42,25 +42,31 @@ function Profile() {
           },
         ]}
       />
-      <Grid templateColumns={{ sm: "1fr", xl: "repeat(3, 1fr)" }} gap='22px'>
+      <Grid templateColumns={{ sm: "1fr", xl: "repeat(2, 1fr)" }} gap='22px'>
         <PlatformSettings
-          title={"Platform Settings"}
-          subtitle1={"ACCOUNT"}
-          subtitle2={"APPLICATION"}
+          title={"Notification Settings"}
+          subtitle1={"FINANCES"}
+          subtitle2={"PURCHASES"}
         />
+        {/* <ConnectedAccounts
+          title={"Connected Accounts"}
+          subtitle1={"FINANCES"}
+          subtitle2={"PURCHASES"}
+        /> */}
         <ProfileInformation
           title={"Profile Information"}
-          description={
-            "Hi, I’m Esthera Jackson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
-          }
-          name={"Esthera Jackson"}
+          // description={
+          //   "Hi, I’m Esthera Jackson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+          // }
+          name={"Carly Jackson"}
           mobile={"(44) 123 1234 123"}
-          email={"esthera@simmmple.com"}
+          email={"cjackson@gmail.com"}
           location={"United States"}
+          budget={"$1500"}
         />
-        <Conversations title={"Conversations"} />
+        {/* <Conversations title={"Conversations"} /> */}
       </Grid>
-      <Projects title={"Projects"} description={"Architects design houses"} />
+      <Projects title={"Recently Purchased"}/>
     </Flex>
   );
 }
