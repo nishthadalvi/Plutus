@@ -19,7 +19,8 @@ import GitHubButton from "react-github-btn";
 import { Separator } from "../Separator/Separator";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import { FaTwitter, FaFacebook } from "react-icons/fa";
+import {IoLogoGooglePlaystore} from "react-icons/io5";
+import { DiAppstore } from "react-icons/di";
 
 export default function Configurator(props) {
   const { secondary, isOpen, onClose, fixed, ...rest } = props;
@@ -204,8 +205,8 @@ export default function Configurator(props) {
                       href=""
                     >
                       <Button
-                        colorScheme="twitter"
-                        leftIcon={<FaTwitter />}
+                        colorScheme="teal"
+                        leftIcon={<DiAppstore/>}
                         me="10px"
                       >
                         <Text>App Store</Text>
@@ -215,8 +216,10 @@ export default function Configurator(props) {
                       isExternal="true"
                       href=""
                     >
-                      <Button colorScheme="facebook" leftIcon={<FaFacebook />}>
-                        <Text>Play Store</Text>
+                      <Button 
+                      colorScheme="teal" 
+                      leftIcon={<IoLogoGooglePlaystore />}>
+                      <Text>Play Store</Text>
                       </Button>
                     </Link>
                   </Flex>

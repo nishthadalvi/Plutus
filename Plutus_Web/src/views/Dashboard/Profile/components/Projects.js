@@ -14,12 +14,13 @@ import avatar6 from "../../../../assets/img/avatars/avatar6.png";
 import imageArchitect1 from "../../../../assets/img/ImageArchitect1.png";
 import imageArchitect2 from "../../../../assets/img/ImageArchitect2.png";
 import imageArchitect3 from "../../../../assets/img/ImageArchitect3.png";
+import imageArchitect4 from "../../../../assets/img/ImageArchitect4.png";
 // Custom components
 import Card from "../../../../components/Card/Card";
 import CardBody from "../../../../components/Card/CardBody";
 import CardHeader from "../../../../components/Card/CardHeader";
 import React from "react";
-import { FaPlus } from "react-icons/fa";
+// import { FaPlus } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
 
 const Projects = ({ title, description }) => {
@@ -47,6 +48,7 @@ const Projects = ({ title, description }) => {
             image={imageArchitect1}
             name={"05/01/2022"}
             category={"$30.00"}
+            href="https://www.amazon.com/dp/B07XJ8C8F5?ref_=nav_em__ods_ha_echo_dt_0_2_4_9"
             description={
               "Amazon"
             }
@@ -65,13 +67,14 @@ const Projects = ({ title, description }) => {
             image={imageArchitect3}
             name={"04/23/2022"}
             category={"$24.59"}
+            href=""
             description={
               "Target"
             }
             avatars={[avatar2, avatar4, avatar6]}
           />
           <ProjectCard
-            image={imageArchitect3}
+            image={imageArchitect4}
             name={"04/17/2022"}
             category={"$89.75"}
             description={
