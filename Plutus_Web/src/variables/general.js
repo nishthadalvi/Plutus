@@ -350,16 +350,28 @@ export const billingData = [
 
 export const newestTransactions = [
   {
-    name: "Netflix",
-    date: "27 March 2021, at 12:30 PM",
-    price: "- $2,500",
-    logo: FaArrowDown,
+    name: "Amazon",
+    date: "11 April 2022, at 11:42 AM",
+    price: "- $250",
+    // logo: FaArrowDown,
   },
   {
-    name: "Apple",
-    date: "27 March 2021, at 12:30 PM",
-    price: "+ $2,500",
-    logo: FaArrowUp,
+    name: "GOAT",
+    date: "03 April 2022, at 2:16 PM",
+    price: "- $400",
+    // logo: FaArrowUp,
+  },
+  {
+    name: "Hollister",
+    date: "27 March 2022, at 6:34 PM",
+    price: "- $45",
+    // logo: FaArrowUp,
+  },
+  {
+    name: "Nike",
+    date: "05 March 2022, at 12:31 PM",
+    price: "- $80",
+    // logo: FaArrowUp,
   },
 ];
 

@@ -8,25 +8,25 @@ function TransactionRow(props) {
   return (
     <Flex my="1rem" justifyContent="space-between">
       <Flex alignItems="center">
-        <Box
-          me="12px"
-          borderRadius="50%"
-          color={
-            price[0] === "+"
-              ? "green.400"
-              : price[0] === "-"
-              ? "red.400"
-              : "gray.400"
-          }
-          border="1px solid"
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-          w="35px"
-          h="35px"
+        {/* <Box
+          // me="12px"
+          // borderRadius="50%"
+          // color={
+          //   price[0] === "+"
+          //     ? "green.400"
+          //     : price[0] === "-"
+          //     ? "red.400"
+          //     : "gray.400"
+          // }
+          // border="1px solid"
+          // display="flex"
+          // alignItems="center"
+          // justifyContent="center"
+          // w="35px"
+          // h="35px"
         >
           <Icon as={logo} />
-        </Box>
+        </Box> */}
         <Flex direction="column">
           <Text
             fontSize={{ sm: "md", md: "lg", lg: "md" }}
