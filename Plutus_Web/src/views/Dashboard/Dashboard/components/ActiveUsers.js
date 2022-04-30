@@ -25,15 +25,60 @@ const ActiveUsers = ({ title, percentage, chart }) => {
             <Text fontSize='lg' color={textColor} fontWeight='bold' mb='6px'>
               {title}
             </Text>
-            <Text fontSize='md' fontWeight='medium' color='gray.400'>
+            <Text fontSize='lg' fontWeight='medium' color='gray.400'>
               <Text
                 as='span'
-                color={percentage > 0 ? "green.400" : "red.400"}
+                color={percentage < 0 ? "green.400" : "red.400"}
                 fontWeight='bold'>
                 {percentage > 0 ? `+${percentage}%` : `-${percentage}%`}
               </Text>{" "}
               than last week
             </Text>
+            <Text fontSize='lg' fontWeight='medium' color='gray.400'>
+              <Text
+                as='span'
+                color={(percentage - 45) < 0 ? "green.400" : "red.400"}
+                fontWeight='bold'>
+                {(percentage - 45) > 0 ? `+${percentage - 45}%` : `-${22}%`}
+              </Text>{" "}
+              than your 1-month weekly average
+            </Text>
+            <Text fontSize='lg' fontWeight='medium' color='gray.400'>
+              <Text
+                as='span'
+                color={(percentage + 11) < 0 ? "green.400" : "red.400"}
+                fontWeight='bold'>
+                {(percentage + 11) > 0 ? `+${percentage + 11}%` : `-${percentage + 11}%`}
+              </Text>{" "}
+              than your 1-year weekly average
+            </Text>
+            {/* <Text fontSize='md' fontWeight='medium' color='gray.400'>
+              <Text
+                as='span'
+                color={(percentage - 11) < 0 ? "green.400" : "red.400"}
+                fontWeight='bold'>
+                {(percentage - 11) > 0 ? `+${percentage - 11}%` : `-${percentage - 11}%`}
+              </Text>{" "}
+              than your 2-year weekly average
+            </Text> */}
+            <Text fontSize='lg' fontWeight='medium' color='gray.400'>
+              <Text
+                as='span'
+                color={(percentage - 15) < 0 ? "green.400" : "red.400"}
+                fontWeight='bold'>
+                {(percentage - 15) > 0 ? `+${percentage - 15}%` : `-${percentage - 15}%`}
+              </Text>{" "}
+              than your overall weekly average
+            </Text>
+            {/* <Text fontSize='md' fontWeight='medium' color='gray.400'>
+              <Text
+                as='span'
+                color={(percentage - 28) < 0 ? "green.400" : "red.400"}
+                fontWeight='bold'>
+                {(percentage - 28) > 0 ? `+${percentage - 28}%` : `-${percentage - 28}%`}
+              </Text>{" "}
+              than your set weekly budget
+            </Text> */}
           </Flex>
            {/* <SimpleGrid gap={{ sm: "12px" }} columns={4}>
             <ChartStatistics
