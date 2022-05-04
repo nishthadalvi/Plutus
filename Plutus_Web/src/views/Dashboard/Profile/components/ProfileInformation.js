@@ -75,7 +75,7 @@ const ProfileInformation = ({
           <Flex align='center' mb='18px'>
           <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
               Set Budget: ${" "}
-              <input type="number" value={1400} color='gray.500' style={{width:'50px'}} />
+              <input type="number" value={300} color='gray.500' style={{width:'50px'}} />
             </Text>
             </Flex>  
         </Flex>

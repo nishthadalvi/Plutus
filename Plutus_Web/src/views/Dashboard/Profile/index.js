@@ -62,7 +62,7 @@ function Profile() {
           mobile={"(44) 123 1234 123"}
           email={"cjackson@gmail.com"}
           location={"United States"}
-          budget={"$1500"}
+          budget={"$300"}
         />
         {/* <Conversations title={"Conversations"} /> */}
       </Grid>

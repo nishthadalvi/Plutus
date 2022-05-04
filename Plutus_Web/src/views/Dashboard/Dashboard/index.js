@@ -40,7 +40,7 @@ export default function Dashboard() {
         />
         <MiniStatistics
           title={"This Month's Savings"}
-          amount={"105"}
+          amount={"$105"}
           percentage={5}
           icon={<WalletIcon h={"24px"} w={"24px"} color={iconBoxInside} />}
         />
