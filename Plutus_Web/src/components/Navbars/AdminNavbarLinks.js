@@ -17,9 +17,9 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import avatar1 from "../../assets/img/avatars/avatar1.png";
-import avatar2 from "../../assets/img/avatars/avatar2.png";
-import avatar3 from "../../assets/img/avatars/avatar3.png";
+import Notif1 from "../../assets/img/avatars/Notif1.png";
+import plutus from "../../assets/img/avatars/Notif3.png";
+import Notif2 from "../../assets/img/avatars/Notif2.png";
 // Custom Icons
 import { ProfileIcon, SettingsIcon } from "../Icons/Icons";
 // Custom Components
@@ -147,7 +147,7 @@ export default function HeaderLinks(props) {
                 info=" by Amazon"
                 boldInfo="Back in stock!"
                 aName=""
-                aSrc={avatar1}
+                aSrc={Notif1}
               />
             </MenuItem>
             <MenuItem borderRadius="8px" mb="10px">
@@ -156,7 +156,7 @@ export default function HeaderLinks(props) {
                 info="by Plutus"
                 boldInfo="Budget reached"
                 aName=""
-                aSrc={avatar2}
+                aSrc={plutus}
               />
             </MenuItem>
             <MenuItem borderRadius="8px">
@@ -165,7 +165,7 @@ export default function HeaderLinks(props) {
                 info="Scheduled purchase completed!"
                 boldInfo=""
                 aName=""
-                aSrc={avatar3}
+                aSrc={Notif2}
               />
             </MenuItem>
           </Flex>

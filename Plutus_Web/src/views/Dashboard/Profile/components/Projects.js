@@ -48,7 +48,6 @@ const Projects = ({ title, description }) => {
             image={imageArchitect1}
             name={"05/01/2022"}
             category={"$30.00"}
-            href="https://www.amazon.com/dp/B07XJ8C8F5?ref_=nav_em__ods_ha_echo_dt_0_2_4_9"
             description={
               "Amazon"
             }
