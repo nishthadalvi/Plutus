@@ -198,8 +198,8 @@ export const tablesTableData = [ //----------------------this is the cart.cart
     name: "Nike Air Jordan 1",
     subdomain: "QT: 1",
     domain: "$129.99",
-    members: [nikelogo],
-    date: "14/06/21",
+    status: "Nike",
+    date: "04/05/22",
   },
 
   {
@@ -207,8 +207,8 @@ export const tablesTableData = [ //----------------------this is the cart.cart
     name: "Modern Accent Chair",
     subdomain: "QT: 1",
     domain: "$179.99",
-    members: [nikelogo],
-    date: "14/06/21",
+    status: "Amazon",
+    date: "04/05/22",
   },
 
 ];
