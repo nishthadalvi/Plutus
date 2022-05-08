@@ -3,7 +3,8 @@ import { Flex } from "@chakra-ui/react";
 import React from "react";
 import Authors from "./components/Authors";
 import Projects from "./components/Projects";
-import { tablesTableData, dashboardTableData } from "../../../variables/general";
+// import { tablesTableData, dashboardTableData } from "../../../variables/general";
+import { tablesTableData, dashboardTableData, statDashboard } from "../../../variables/general";
 
 function Tables() {
   return (
@@ -16,7 +17,8 @@ function Tables() {
       <Projects
         title={"Projects Table"}
         captions={["Companies", "Budget", "Status", "Completion", ""]}
-        data={dashboardTableData}
+        // data={dashboardTableData}
+        data={statDashboard}
       />
     </Flex>
   );

@@ -12,7 +12,8 @@ import {
 import React from "react";
 
 function DashboardTableRow(props) {
-  const { logo, name, members, budget, progression } = props;
+  // const { logo, name, members, budget, progression } = props;
+  const { logo, name, members, budget} = props;
   const textColor = useColorModeValue("gray.700", "white");
   return (
     <Tr>
@@ -50,7 +51,7 @@ function DashboardTableRow(props) {
         </Text>
       </Td>
       <Td>
-        <Flex direction="column">
+        {/* <Flex direction="column">
           <Text
             fontSize="md"
             color="teal.300"
@@ -63,7 +64,7 @@ function DashboardTableRow(props) {
             value={progression}
             borderRadius="15px"
           />
-        </Flex>
+        </Flex> */}
       </Td>
     </Tr>
   );

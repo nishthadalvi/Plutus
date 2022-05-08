@@ -14,7 +14,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import plutus from "../../assets/img/plutus.png";
+import plutus from "../../assets/plutus.png";
 
 function SignIn() {
   // Chakra color mode
