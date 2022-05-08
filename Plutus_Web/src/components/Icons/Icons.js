@@ -1,6 +1,34 @@
 import React, { Component }  from 'react';
 import { createIcon } from "@chakra-ui/icons";
 import plutusLogo from "../../assets/plutus.png"
+import jordanLogo from "../../assets/img/airjordan.png"
+import chair from "../../assets/img/amazonChair.jpeg"
+import amazonlogo from "../../assets/img/amazonlogo.png";
+import nikelogo from "../../assets/img/Nike_Logo.jpeg";
+
+export const JordanLogo = () => {
+  return (
+    <img style={{ height : "60px", width : "80px", borderBottomLeftRadius: "30%", borderBottomRightRadius: "30%", borderTopLeftRadius: "30%", borderTopRightRadius: "30%", textAlign: 'left'}} src={jordanLogo} />
+  )
+}
+
+export const ChairLogo = () => {
+  return (
+    <img style={{ height : "60px", width : "80px", borderBottomLeftRadius: "30%", borderBottomRightRadius: "30%", borderTopLeftRadius: "30%", borderTopRightRadius: "30%", textAlign: 'left'}} src={chair} />
+  )
+}
+
+export const AmazonLogo2 = () => {
+  return (
+    <img style={{ height : "60px", width : "80px", borderBottomLeftRadius: "30%", borderBottomRightRadius: "30%", borderTopLeftRadius: "30%", borderTopRightRadius: "30%", textAlign: 'left'}} src={amazonlogo} />
+  )
+}
+
+export const NikeLogo2 = () => {
+  return (
+    <img style={{ height : "60px", width : "80px", borderBottomLeftRadius: "30%", borderBottomRightRadius: "30%", borderTopLeftRadius: "30%", borderTopRightRadius: "30%", textAlign: 'left'}} src={nikelogo} />
+  )
+}
 
 export const AdobexdLogo = createIcon({
   displayName: "AdobexdLogo",

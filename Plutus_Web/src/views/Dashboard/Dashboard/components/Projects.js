@@ -65,7 +65,7 @@ const Projects = ({ title, amount, captions, data }) => {
                 logo={row.logo}
                 members={row.members}
                 budget={row.budget}
-                progression={row.progression}
+                // progression={row.progression}
               />
             );
           })}
