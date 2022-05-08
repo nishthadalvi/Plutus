@@ -415,8 +415,8 @@ export const dashboardTableData = [ //--------this is the front dahsboard!!!!!!!
   {
     logo: JordanLogo,
     name: "Air Jordan 1",
-    members: [nikelogo],
-    budget: "$129.99",
+    members: [amazonlogo],
+    budget: "$264.49",
 
   },
   {
@@ -430,17 +430,17 @@ export const dashboardTableData = [ //--------this is the front dahsboard!!!!!!!
 export const statDashboard = [ //---------------------------this is the cart.stats
   {
     logo: NikeLogo2,
-    members: [nikelogo],
-    budget: "$129.99",
-    status: "1",
-    progression: 50,
+    members: [amazonlogo],
+    budget: "$100",
+    status: "0",
+    progression: 33,
   },
   {
     logo: AmazonLogo2,
     members: [amazonlogo],
-    budget: "$179.99",
+    budget: "$200",
     status: "1",
-    progression: 50,
+    progression: 67,
   },
 ];
 export const tablesTableData = [ //----------------------this is the cart.cart
@@ -448,10 +448,10 @@ export const tablesTableData = [ //----------------------this is the cart.cart
     logo: airjordan,
     name: "Nike Air Jordan 1",
     subdomain: "QT: 1",
-    domain: "$129.99",
+    domain: "$264.49",
     // members: [nikelogo],
     // date: "14/06/21",
-    status: "Nike",
+    status: "Amazon",
     date: "04/05/22",
   },
 

@@ -9,7 +9,6 @@ import {
     useColorModeValue
 } from "@chakra-ui/react";
 import IconBox from "../Icons/IconBox";
-import { CreativeTimLogo } from "../Icons/Icons";
 import { PlutusLogo } from "../Icons/Icons";
 import { Separator } from "../Separator/Separator";
 import { SidebarHelp } from "../Sidebar/SidebarHelp";

@@ -90,7 +90,7 @@ export default function Dashboard() {
         templateColumns={{ sm: "1fr", lg: "1.3fr 1.7fr" }}
         templateRows={{ sm: "repeat(2, 1fr)", lg: "1fr" }}
         gap='24px'
-        my={{ lg: "26px" }}>
+        my={26}>
         <ActiveUsers
           title={"Your Spending This Week"}
           percentage={23}
@@ -98,7 +98,7 @@ export default function Dashboard() {
         />
         <SalesOverview
           title={"Spending and Budget This Year"}
-          percentage={5}
+          percentage={35}
           chart={<LineChart />}
         />
       </Grid>
@@ -115,7 +115,7 @@ export default function Dashboard() {
           data={dashboardTableData}
         />
         <OrdersOverview
-          title={"Orders Overview"}
+          title={"Upcoming Purchases"}
           amount={30}
           data={timelineData}
         />

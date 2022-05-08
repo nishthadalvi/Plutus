@@ -21,10 +21,10 @@ const Projects = ({ title, amount, captions, data }) => {
   const textColor = useColorModeValue("gray.700", "white");
 
   return (
-    <Card p='16px' overflowX={{ sm: "scroll", xl: "hidden" }}>
+    <Card py='22px' px='30px' overflowX={{ sm: "scroll", xl: "hidden" }}>
       <CardHeader p='12px 0px 28px 0px'>
         <Flex direction='column'>
-          <Text fontSize='lg' color={textColor} fontWeight='bold' pb='.5rem'>
+          <Text fontSize='lg' color={textColor} fontWeight='bold' py='.5rem'>
             {title}
           </Text>
           <Flex align='center'>

@@ -10,13 +10,13 @@ function Tables() {
   return (
     <Flex direction='column' pt={{ base: "120px", md: "75px" }}>
       <Authors
-        title={"Authors Table"}
-        captions={["Author", "Function", "Status", "Employed", ""]}
+        title={"Your Cart"}
+        captions={["Item", "Price", "Store", "Date Added", ""]}
         data={tablesTableData}
       />
       <Projects
-        title={"Projects Table"}
-        captions={["Companies", "Budget", "Status", "Completion", ""]}
+        title={"Your Store Accounts"}
+        captions={["Store Name", "Budget", "Number of Cart Items", "Percentage of Budget", ""]}
         // data={dashboardTableData}
         data={statDashboard}
       />

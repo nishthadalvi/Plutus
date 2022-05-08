@@ -17,9 +17,9 @@ const SalesOverview = ({ title, percentage, chart }) => {
           <Text fontSize='md' fontWeight='medium' color='gray.400'>
             <Text
               as='span'
-              color={percentage > 0 ? "green.400" : "red.400"}
+              color={percentage < 0 ? "green.400" : "red.400"}
               fontWeight='bold'>
-              {`${percentage}%`} more
+              +{`${percentage}%`}
             </Text>{" "}
             in 2022
           </Text>
