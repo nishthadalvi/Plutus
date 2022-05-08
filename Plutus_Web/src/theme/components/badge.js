@@ -1,4 +1,4 @@
-import { background, baseStyle } from "@chakra-ui/react";
+import { baseStyle } from "@chakra-ui/react";
 
 export const badgeStyles = {
     components: {
@@ -9,6 +9,9 @@ export const badgeStyles = {
                     height: "25px"
                 }
             },
+            baseStyle: {
+                textTransform: "capitalize"
+            }
 
         }
     }

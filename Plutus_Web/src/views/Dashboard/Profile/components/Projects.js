@@ -14,12 +14,13 @@ import avatar6 from "../../../../assets/img/avatars/avatar6.png";
 import imageArchitect1 from "../../../../assets/img/ImageArchitect1.png";
 import imageArchitect2 from "../../../../assets/img/ImageArchitect2.png";
 import imageArchitect3 from "../../../../assets/img/ImageArchitect3.png";
+import imageArchitect4 from "../../../../assets/img/ImageArchitect4.png";
 // Custom components
 import Card from "../../../../components/Card/Card";
 import CardBody from "../../../../components/Card/CardBody";
 import CardHeader from "../../../../components/Card/CardHeader";
 import React from "react";
-import { FaPlus } from "react-icons/fa";
+// import { FaPlus } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
 
 const Projects = ({ title, description }) => {
@@ -45,45 +46,41 @@ const Projects = ({ title, description }) => {
           gap='24px'>
           <ProjectCard
             image={imageArchitect1}
-            name={"Project #1"}
-            category={"Modern"}
+            name={"05/01/2022"}
+            category={"$30.00"}
             description={
-              "As Uber works through a huge amount of internal management turmoil."
+              "Amazon"
             }
             avatars={[avatar2, avatar4, avatar6]}
           />
           <ProjectCard
             image={imageArchitect2}
-            name={"Project #2"}
-            category={"Scandinavian"}
+            name={"04/25/2022"}
+            category={"$59.99"}
             description={
-              "Music is something that every person has his or her own specific opinion about."
+              "Urban Outfitters"
             }
             avatars={[avatar4, avatar2, avatar6, avatar4]}
           />
           <ProjectCard
             image={imageArchitect3}
-            name={"Project #3"}
-            category={"Minimalist"}
+            name={"04/23/2022"}
+            category={"$24.59"}
+            href=""
             description={
-              "Different people have different taste, especially various types of music."
+              "Target"
             }
             avatars={[avatar2, avatar4, avatar6]}
           />
-          <Button
-            p='0px'
-            bg='transparent'
-            color='gray.500'
-            border='1px solid lightgray'
-            borderRadius='15px'
-            minHeight={{ sm: "200px", md: "100%" }}>
-            <Flex direction='column' justifyContent='center' align='center'>
-              <Icon as={FaPlus} fontSize='lg' mb='12px' />
-              <Text fontSize='lg' fontWeight='bold'>
-                Create a New Project
-              </Text>
-            </Flex>
-          </Button>
+          <ProjectCard
+            image={imageArchitect4}
+            name={"04/17/2022"}
+            category={"$89.75"}
+            description={
+              "Whole Foods"
+            }
+            avatars={[avatar2, avatar4, avatar6]}
+          />
         </Grid>
       </CardBody>
     </Card>
