@@ -1,4 +1,6 @@
 // Assets
+<<<<<<< HEAD:Plutus_Web/src/variables/general.js
+=======
 <<<<<<< HEAD:Chakra Theme/src/variables/general.js
 import avatar1 from "assets/img/avatars/shoes.jpg";
 import avatar2 from "assets/img/avatars/shoes.jpg";
@@ -10,6 +12,7 @@ import avatar8 from "assets/img/avatars/shoes.jpg";
 import avatar9 from "assets/img/avatars/shoes.jpg";
 import avatar10 from "assets/img/avatars/shoes.jpg";
 =======
+>>>>>>> cart:Plutus_Web/src/variables/general.js.orig
 import avatar1 from "../assets/img/avatars/avatar1.png";
 import avatar2 from "../assets/img/avatars/avatar2.png";
 import avatar3 from "../assets/img/avatars/avatar3.png";
@@ -19,7 +22,10 @@ import avatar7 from "../assets/img/avatars/avatar7.png";
 import avatar8 from "../assets/img/avatars/avatar8.png";
 import avatar9 from "../assets/img/avatars/avatar9.png";
 import avatar10 from "../assets/img/avatars/avatar10.png";
+<<<<<<< HEAD:Plutus_Web/src/variables/general.js
+=======
 >>>>>>> 1ffcd2e12b526c63de97c8369262132e31429d03:Plutus_Web/src/variables/general.js
+>>>>>>> cart:Plutus_Web/src/variables/general.js.orig
 // Custom icons
 import {
   AdobexdLogo,
@@ -317,16 +323,28 @@ export const billingData = [
 
 export const newestTransactions = [
   {
-    name: "Netflix",
-    date: "27 March 2021, at 12:30 PM",
-    price: "- $2,500",
-    logo: FaArrowDown,
+    name: "Amazon",
+    date: "11 April 2022, at 11:42 AM",
+    price: "- $250",
+    // logo: FaArrowDown,
   },
   {
-    name: "Apple",
-    date: "27 March 2021, at 12:30 PM",
-    price: "+ $2,500",
-    logo: FaArrowUp,
+    name: "GOAT",
+    date: "03 April 2022, at 2:16 PM",
+    price: "- $400",
+    // logo: FaArrowUp,
+  },
+  {
+    name: "Hollister",
+    date: "27 March 2022, at 6:34 PM",
+    price: "- $45",
+    // logo: FaArrowUp,
+  },
+  {
+    name: "Nike",
+    date: "05 March 2022, at 12:31 PM",
+    price: "- $80",
+    // logo: FaArrowUp,
   },
 ];
 

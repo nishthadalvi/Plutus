@@ -12,7 +12,6 @@ import {
 } from "../../../../components/Icons/Icons.js";
 import React from "react";
 import ChartStatistics from "./ChartStatistics";
-
 const ActiveUsers = ({ title, percentage, chart }) => {
   const iconBoxInside = useColorModeValue("white", "white");
   const textColor = useColorModeValue("gray.700", "white");
@@ -28,7 +27,7 @@ const ActiveUsers = ({ title, percentage, chart }) => {
             <Text fontSize='lg' fontWeight='medium' color='gray.400'>
               <Text
                 as='span'
-                color={percentage < 0 ? "green.400" : "red.400"}
+                color={percentage > 0 ? "green.400" : "red.400"}
                 fontWeight='bold'>
                 {percentage > 0 ? `+${percentage}%` : `-${percentage}%`}
               </Text>{" "}
@@ -52,15 +51,6 @@ const ActiveUsers = ({ title, percentage, chart }) => {
               </Text>{" "}
               than your 1-year weekly average
             </Text>
-            {/* <Text fontSize='md' fontWeight='medium' color='gray.400'>
-              <Text
-                as='span'
-                color={(percentage - 11) < 0 ? "green.400" : "red.400"}
-                fontWeight='bold'>
-                {(percentage - 11) > 0 ? `+${percentage - 11}%` : `-${percentage - 11}%`}
-              </Text>{" "}
-              than your 2-year weekly average
-            </Text> */}
             <Text fontSize='lg' fontWeight='medium' color='gray.400'>
               <Text
                 as='span'
@@ -70,46 +60,10 @@ const ActiveUsers = ({ title, percentage, chart }) => {
               </Text>{" "}
               than your overall weekly average
             </Text>
-            {/* <Text fontSize='md' fontWeight='medium' color='gray.400'>
-              <Text
-                as='span'
-                color={(percentage - 28) < 0 ? "green.400" : "red.400"}
-                fontWeight='bold'>
-                {(percentage - 28) > 0 ? `+${percentage - 28}%` : `-${percentage - 28}%`}
-              </Text>{" "}
-              than your set weekly budget
-            </Text> */}
           </Flex>
-           {/* <SimpleGrid gap={{ sm: "12px" }} columns={4}>
-            <ChartStatistics
-              title={"Users"}
-              amount={"32,984"}
-              percentage={20}
-              icon={<WalletIcon h={"15px"} w={"15px"} color={iconBoxInside} />}
-            />
-            <ChartStatistics
-              title={"Clicks"}
-              amount={"2.42m"}
-              percentage={80}
-              icon={<RocketIcon h={"15px"} w={"15px"} color={iconBoxInside} />}
-            />
-            <ChartStatistics
-              title={"Sales"}
-              amount={"2,400$"}
-              percentage={30}
-              icon={<CartIcon h={"15px"} w={"15px"} color={iconBoxInside} />}
-            />
-            <ChartStatistics
-              title={"Items"}
-              amount={"320"}
-              percentage={40}
-              icon={<StatsIcon h={"15px"} w={"15px"} color={iconBoxInside} />}
-            />
-          </SimpleGrid> */}
         </Flex>
       </CardBody>
     </Card>
   );
 };
-
 export default ActiveUsers;

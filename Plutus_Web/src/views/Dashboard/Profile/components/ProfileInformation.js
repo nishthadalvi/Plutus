@@ -6,6 +6,7 @@ import CardBody from "../../../../components/Card/CardBody";
 import CardHeader from "../../../../components/Card/CardHeader";
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { SiGraylog } from "react-icons/si";
 
 const ProfileInformation = ({
   title,
@@ -14,13 +15,14 @@ const ProfileInformation = ({
   mobile,
   email,
   location,
+  budget,
 }) => {
   // Chakra color mode
   const textColor = useColorModeValue("gray.700", "white");
 
   return (
     <Card p='16px' my={{ sm: "24px", xl: "0px" }}>
-      <CardHeader p='12px 5px' mb='12px'>
+      <CardHeader p='12px 5px' mb='0px'>
         <Text fontSize='lg' color={textColor} fontWeight='bold'>
           {title}
         </Text>
@@ -30,7 +32,7 @@ const ProfileInformation = ({
           <Text fontSize='md' color='gray.500' fontWeight='400' mb='30px'>
             {description}
           </Text>
-          <Flex align='center' mb='18px'>
+          <Flex align='center' mb='20px'>
             <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
               Full Name:{" "}
             </Text>
@@ -64,35 +66,18 @@ const ProfileInformation = ({
           </Flex>
           <Flex align='center' mb='18px'>
             <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
-              Social Media:{" "}
+              Current Budget:{" "}
             </Text>
-            <Flex>
-              <Link
-                href='#'
-                color='teal.300'
-                fontSize='lg'
-                me='10px'
-                _hover={{ color: "teal.300" }}>
-                <Icon as={FaFacebook} />
-              </Link>
-              <Link
-                href='#'
-                color='teal.300'
-                fontSize='lg'
-                me='10px'
-                _hover={{ color: "teal.300" }}>
-                <Icon as={FaInstagram} />
-              </Link>
-              <Link
-                href='#'
-                color='teal.300'
-                fontSize='lg'
-                me='10px'
-                _hover={{ color: "teal.300" }}>
-                <Icon as={FaTwitter} />
-              </Link>
-            </Flex>
+            <Text fontSize='md' color='gray.500' fontWeight='400'>
+              {budget}
+            </Text>
           </Flex>
+          <Flex align='center' mb='18px'>
+          <Text fontSize='md' color={textColor} fontWeight='bold' me='10px'>
+              Set Budget: ${" "}
+              <input type="number" value={300} color='gray.500' style={{width:'50px'}} />
+            </Text>
+            </Flex>  
         </Flex>
       </CardBody>
     </Card>

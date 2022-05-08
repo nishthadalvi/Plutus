@@ -12,7 +12,7 @@ const Transactions = ({
   title,
   date,
   newestTransactions,
-  olderTransactions,
+  // olderTransactions,
 }) => {
   // Chakra color mode
   const textColor = useColorModeValue("gray.700", "white");
@@ -59,29 +59,29 @@ const Transactions = ({
             return (
               <TransactionRow
                 name={row.name}
-                logo={row.logo}
+                // logo={row.logo}
                 date={row.date}
                 price={row.price}
               />
             );
           })}
-          <Text
+          {/* <Text
             color='gray.400'
             fontSize={{ sm: "sm", md: "md" }}
             fontWeight='semibold'
             my='12px'>
             OLDER
-          </Text>
-          {olderTransactions.map((row) => {
+          </Text> */}
+          {/* {olderTransactions.map((row) => {
             return (
               <TransactionRow
                 name={row.name}
-                logo={row.logo}
+                // logo={row.logo}
                 date={row.date}
                 price={row.price}
               />
             );
-          })}
+          })} */}
         </Flex>
       </CardBody>
     </Card>

@@ -51,8 +51,8 @@ function SignUp() {
         align='center'
         mt='6.5rem'
         mb='30px'>
-        <Text fontSize='4xl' color='white' fontWeight='bold'>
-          Welcome!
+        <Text fontSize='6xl' color='white' fontWeight='bold'>
+          Welcome to Plutus!
         </Text>
         <Text
           fontSize='md'
@@ -61,8 +61,6 @@ function SignUp() {
           mt='10px'
           mb='26px'
           w={{ base: "90%", sm: "60%", lg: "40%", xl: "30%" }}>
-          Use these awesome forms to login or create new account in your project
-          for free.
         </Text>
       </Flex>
       <Flex alignItems='center' justifyContent='center' mb='60px' mt='20px'>

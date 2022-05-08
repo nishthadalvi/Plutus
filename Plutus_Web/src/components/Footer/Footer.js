@@ -19,6 +19,37 @@ export default function Footer(props) {
       px="30px"
       pb="20px"
     >
+      <Text
+        color="gray.400"
+        textAlign={{
+          base: "center",
+          xl: "start",
+        }}
+        mb={{ base: "20px", xl: "0px" }}
+      >
+        &copy; {1900 + new Date().getYear()},{" "}
+        <Text as="span">
+          {"Made with ❤️ by "}
+        </Text>
+        <Link
+          // color={linkTeal}
+          color="teal.400"
+          href="https://github.com/AnjaliBathra/Plutus"
+          target="_blank"
+        >
+          {"PLUTU$ "}
+        </Link>
+        @
+        <Link
+          // color={linkTeal}
+          color="teal.400"
+          href="https://github.com/AnjaliBathra/Plutus"
+          target="_blank"
+        >
+          {"Texas Convergent"}
+        </Link>
+        {/* {" for a better online shopping experience"} */}
+      </Text>
       <List display="flex">
         <ListItem
           me={{
@@ -26,10 +57,8 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
-          <Link color="gray.400" href="https://www.creative-tim.com">
-            {document.documentElement.dir === "rtl"
-              ? "توقيت الإبداعية"
-              : "Creative Tim"}
+          <Link color="gray.400" href="https://github.com/AnjaliBathra/Plutus">
+            {"GitHub"}
           </Link>
         </ListItem>
         <ListItem
@@ -38,8 +67,8 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
-          <Link color="gray.400" href="https://www.simmmple.com">
-            {document.documentElement.dir === "rtl" ? "سيممبل" : "Simmmple"}
+          <Link color="gray.400" href="https://www.txconvergent.org/">
+            {"TXConvergent"}
           </Link>
         </ListItem>
         <ListItem
@@ -48,6 +77,20 @@ export default function Footer(props) {
             md: "44px",
           }}
         >
+          <Link
+            color="gray.400"
+            href="https://creative-tim.com/blog"
+          >
+            {"Theme"}
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link
+            color="gray.400"
+            href="https://www.creative-tim.com/license"
+          >
+            {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
+          </Link>
         </ListItem>
       </List>
     </Flex>

@@ -17,9 +17,9 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import avatar1 from "../../assets/img/avatars/avatar1.png";
-import avatar2 from "../../assets/img/avatars/avatar2.png";
-import avatar3 from "../../assets/img/avatars/avatar3.png";
+import Notif1 from "../../assets/img/avatars/Notif1.png";
+import plutus from "../../assets/img/avatars/Notif3.png";
+import Notif2 from "../../assets/img/avatars/Notif2.png";
 // Custom Icons
 import { ProfileIcon, SettingsIcon } from "../Icons/Icons";
 // Custom Components
@@ -67,7 +67,7 @@ export default function HeaderLinks(props) {
           borderColor: { mainTeal },
         }}
       >
-        <InputLeftElement
+        {/* <InputLeftElement
           children={
             <IconButton
               bg="inherit"
@@ -84,14 +84,14 @@ export default function HeaderLinks(props) {
               icon={<SearchIcon color={searchIcon} w="15px" h="15px" />}
             ></IconButton>
           }
-        />
-        <Input
+        /> */}
+        {/* <Input
           fontSize="xs"
           py="11px"
           color={mainText}
           placeholder="Type here..."
           borderRadius="inherit"
-        />
+        /> */}
       </InputGroup>
       <NavLink to="/auth/signin">
         <Button
@@ -143,29 +143,29 @@ export default function HeaderLinks(props) {
           <Flex flexDirection="column">
             <MenuItem borderRadius="8px" mb="10px">
               <ItemContent
-                time="13 minutes ago"
-                info="from Alicia"
-                boldInfo="New Message"
-                aName="Alicia"
-                aSrc={avatar1}
+                time="12 minutes ago"
+                info=" by Amazon"
+                boldInfo="Back in stock!"
+                aName=""
+                aSrc={Notif1}
               />
             </MenuItem>
             <MenuItem borderRadius="8px" mb="10px">
               <ItemContent
                 time="2 days ago"
-                info="by Josh Henry"
-                boldInfo="New Album"
-                aName="Josh Henry"
-                aSrc={avatar2}
+                info="by Plutus"
+                boldInfo="Budget reached"
+                aName=""
+                aSrc={plutus}
               />
             </MenuItem>
             <MenuItem borderRadius="8px">
               <ItemContent
                 time="3 days ago"
-                info="Payment succesfully completed!"
+                info="Scheduled purchase completed!"
                 boldInfo=""
-                aName="Kara"
-                aSrc={avatar3}
+                aName=""
+                aSrc={Notif2}
               />
             </MenuItem>
           </Flex>
